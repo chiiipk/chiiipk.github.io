@@ -356,25 +356,40 @@ h1 mark::after {
 
 .spark {
   position: absolute;
-  width: 46px;
-  height: 46px;
+  z-index: 2;
+  width: 76px;
+  height: 76px;
+  padding: 8px;
   color: var(--blue);
+  background: var(--yellow);
+  border: 2px solid var(--blue-dark);
+  border-radius: 48% 52% 45% 55%;
+  box-shadow: 6px 7px 0 #b9dcff;
   animation: bob 3s ease-in-out infinite;
 }
 
-.spark-one { top: 16%; left: -31px; }
-.spark-two { right: -12px; bottom: 23%; width: 51px; height: 40px; color: #70bdf0; animation-delay: -1.4s; }
+.spark-one { top: 13%; left: -55px; transform: rotate(-8deg); }
+.spark-two {
+  right: -34px;
+  bottom: 20%;
+  width: 82px;
+  height: 66px;
+  color: #70bdf0;
+  background: var(--white);
+  animation-delay: -1.4s;
+}
 
 .doodle {
   position: absolute;
-  width: 48px;
-  height: 48px;
+  width: 76px;
+  height: 76px;
   color: #71baf0;
+  filter: drop-shadow(3px 4px 0 rgba(185, 220, 255, .8));
   animation: bob 4s ease-in-out infinite;
 }
 
-.doodle-one { top: 9%; right: 44%; transform: rotate(-8deg); }
-.doodle-two { bottom: 12%; left: 45%; width: 56px; color: #96a9ff; animation-delay: -2s; }
+.doodle-one { top: 8%; right: 44%; transform: rotate(-8deg); }
+.doodle-two { bottom: 10%; left: 45%; width: 82px; color: #96a9ff; animation-delay: -2s; }
 
 @keyframes bob {
   0%, 100% { transform: translateY(0) rotate(0deg); }
@@ -858,6 +873,8 @@ footer p:last-child { text-align: right; }
   .photo-shell { box-shadow: 11px 13px 0 #b9dcff; }
   .note-top { right: -8px; }
   .note-bottom { left: -5px; }
+  .spark-one { top: 18%; left: -28px; width: 64px; height: 64px; }
+  .spark-two { right: -25px; width: 68px; height: 56px; }
   .ticker div { justify-content: flex-start; padding-left: 16px; }
   .ticker div span:nth-of-type(n+3), .ticker div i:nth-of-type(n+3) { display: none; }
   .section { padding-top: 88px; padding-bottom: 88px; }
