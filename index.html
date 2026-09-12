@@ -35,10 +35,32 @@
   </script>
 </head>
 <body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <defs>
+      <symbol id="icon-fish" viewBox="0 0 64 64">
+        <path d="M8 32c9-13 27-18 42 0-15 18-33 13-42 0Z" fill="currentColor"/>
+        <path d="M48 32 60 19v26L48 32Z" fill="currentColor"/>
+        <circle cx="23" cy="28" r="2.4" fill="#f8fcff"/>
+        <path d="M27 38c4 2 8 1 11-2" fill="none" stroke="#f8fcff" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="icon-cloud" viewBox="0 0 64 64">
+        <path d="M15 46h35a10 10 0 0 0 1-20 16 16 0 0 0-30-3A12 12 0 0 0 15 46Z" fill="currentColor"/>
+        <circle cx="27" cy="34" r="2" fill="#f8fcff"/>
+        <circle cx="39" cy="34" r="2" fill="#f8fcff"/>
+        <path d="M29 39c2 2 5 2 8 0" fill="none" stroke="#f8fcff" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="icon-cat" viewBox="0 0 64 64">
+        <path d="m14 24-2-14 14 8a28 28 0 0 1 12 0l14-8-2 14a22 22 0 1 1-36 0Z" fill="currentColor"/>
+        <circle cx="25" cy="33" r="2.3" fill="#f8fcff"/>
+        <circle cx="39" cy="33" r="2.3" fill="#f8fcff"/>
+        <path d="m29 39 3 2 3-2M19 40l-9-2m9 7-8 2m34-7 9-2m-9 7 8 2" fill="none" stroke="#f8fcff" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+    </defs>
+  </svg>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <a class="logo" href="#top" aria-label="Back to top">chi<span>✦</span></a>
+    <a class="logo" href="#top" aria-label="Back to top">chi<svg class="logo-doodle motif" aria-hidden="true"><use href="#icon-cloud"></use></svg></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
       <span></span><span></span>
       <span class="sr-only">Toggle navigation</span>
@@ -53,8 +75,8 @@
 
   <main id="main">
     <section class="hero wrap" id="top">
-      <div class="doodle doodle-one" aria-hidden="true">✦</div>
-      <div class="doodle doodle-two" aria-hidden="true">✿</div>
+      <svg class="doodle doodle-one motif" aria-hidden="true"><use href="#icon-fish"></use></svg>
+      <svg class="doodle doodle-two motif" aria-hidden="true"><use href="#icon-cloud"></use></svg>
 
       <div class="hero-copy reveal">
         <p class="hello"><span></span> Hello, I’m Chi!</p>
@@ -77,17 +99,17 @@
         </div>
         <div class="float-note note-top"><span>currently</span> exploring small, capable LMs</div>
         <div class="float-note note-bottom">HUST · BKAI <b>↗</b></div>
-        <span class="spark spark-one" aria-hidden="true">✦</span>
-        <span class="spark spark-two" aria-hidden="true">✦</span>
+        <svg class="spark spark-one motif" aria-hidden="true"><use href="#icon-cat"></use></svg>
+        <svg class="spark spark-two motif" aria-hidden="true"><use href="#icon-cloud"></use></svg>
       </div>
     </section>
 
     <div class="ticker" aria-hidden="true">
       <div>
-        <span>NATURAL LANGUAGE PROCESSING</span><i>✦</i>
-        <span>KNOWLEDGE DISTILLATION</span><i>✦</i>
-        <span>NEURAL TOPIC MODELING</span><i>✦</i>
-        <span>REPRESENTATION ALIGNMENT</span><i>✦</i>
+        <span>NATURAL LANGUAGE PROCESSING</span><i><svg class="ticker-fish motif"><use href="#icon-fish"></use></svg></i>
+        <span>KNOWLEDGE DISTILLATION</span><i>〜</i>
+        <span>NEURAL TOPIC MODELING</span><i><svg class="ticker-fish motif"><use href="#icon-fish"></use></svg></i>
+        <span>REPRESENTATION ALIGNMENT</span><i>〜</i>
       </div>
     </div>
 
@@ -215,7 +237,7 @@
           </a>
 
           <a class="project-card coral reveal" href="https://github.com/HoangTran223/Awesome-Knowledge-Distillation-of-VLMs" target="_blank" rel="noreferrer">
-            <div class="project-top"><span class="repo-icon">✦</span><span>Curated resource</span></div>
+            <div class="project-top"><span class="repo-icon"><svg class="repo-doodle motif" aria-hidden="true"><use href="#icon-fish"></use></svg></span><span>Curated resource</span></div>
             <h3>Awesome KD of VLMs</h3>
             <p>A living reading list for knowledge distillation of vision-language models.</p>
             <div class="project-foot"><b>Pinned upstream</b><span>Open repo ↗</span></div>
@@ -233,7 +255,7 @@
 
     <section class="section wrap about" id="about">
       <div class="about-card reveal">
-        <div class="mini-orbit" aria-hidden="true"><span></span><i>✦</i></div>
+        <div class="mini-orbit" aria-hidden="true"><span></span><svg class="orbit-cat motif"><use href="#icon-cat"></use></svg></div>
         <div>
           <p class="eyebrow">A little about me <span>03</span></p>
           <h2>Curious about the structure inside intelligence.</h2>
@@ -245,7 +267,7 @@
 
     <section class="contact" id="contact">
       <div class="wrap contact-inner reveal">
-        <span class="contact-star" aria-hidden="true">✦</span>
+        <svg class="contact-doodle motif" aria-hidden="true"><use href="#icon-cloud"></use></svg>
         <p>Have an interesting question?</p>
         <h2>Let’s think about it together.</h2>
         <a class="email" href="mailto:phamkhanhchi0406@gmail.com">phamkhanhchi0406@gmail.com <span>↗</span></a>
@@ -258,7 +280,7 @@
   </main>
 
   <footer>
-    <a class="logo footer-logo" href="#top">chi<span>✦</span></a>
+    <a class="logo footer-logo" href="#top">chi<svg class="logo-doodle motif" aria-hidden="true"><use href="#icon-cloud"></use></svg></a>
     <p>Made with curiosity &amp; a little blue.</p>
     <p>© <span id="year">2026</span> Pham Khanh Chi</p>
   </footer>

@@ -39,6 +39,15 @@ body {
 a { color: inherit; }
 img { display: block; max-width: 100%; }
 
+.svg-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.motif { display: block; }
+
 ::selection {
   color: var(--white);
   background: var(--blue);
@@ -93,6 +102,8 @@ img { display: block; max-width: 100%; }
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
   color: var(--navy);
   font-size: 1.35rem;
   font-weight: 800;
@@ -100,10 +111,11 @@ img { display: block; max-width: 100%; }
   text-decoration: none;
 }
 
-.logo span {
+.logo-doodle {
+  width: 24px;
+  height: 19px;
   margin-left: 3px;
   color: var(--blue);
-  font-size: .9rem;
 }
 
 nav {
@@ -344,23 +356,25 @@ h1 mark::after {
 
 .spark {
   position: absolute;
+  width: 46px;
+  height: 46px;
   color: var(--blue);
-  font-size: 2.2rem;
   animation: bob 3s ease-in-out infinite;
 }
 
-.spark-one { top: 16%; left: -26px; }
-.spark-two { right: -12px; bottom: 23%; animation-delay: -1.4s; }
+.spark-one { top: 16%; left: -31px; }
+.spark-two { right: -12px; bottom: 23%; width: 51px; height: 40px; color: #70bdf0; animation-delay: -1.4s; }
 
 .doodle {
   position: absolute;
+  width: 48px;
+  height: 48px;
   color: #71baf0;
-  font-size: 2rem;
   animation: bob 4s ease-in-out infinite;
 }
 
-.doodle-one { top: 9%; right: 44%; }
-.doodle-two { bottom: 12%; left: 45%; color: #96a9ff; animation-delay: -2s; }
+.doodle-one { top: 9%; right: 44%; transform: rotate(-8deg); }
+.doodle-two { bottom: 12%; left: 45%; width: 56px; color: #96a9ff; animation-delay: -2s; }
 
 @keyframes bob {
   0%, 100% { transform: translateY(0) rotate(0deg); }
@@ -386,7 +400,16 @@ h1 mark::after {
   letter-spacing: .1em;
 }
 
-.ticker i { color: var(--yellow); font-style: normal; }
+.ticker i {
+  display: grid;
+  min-width: 25px;
+  color: var(--yellow);
+  font-size: 1rem;
+  font-style: normal;
+  place-items: center;
+}
+
+.ticker-fish { width: 25px; height: 18px; }
 
 .section { padding-top: 120px; padding-bottom: 120px; }
 
@@ -566,6 +589,8 @@ h2 {
   place-items: center;
 }
 
+.repo-doodle { width: 28px; height: 22px; }
+
 .project-card h3 {
   margin: 2rem 0 .65rem;
   font-size: 1.55rem;
@@ -654,14 +679,14 @@ h2 {
   border-radius: 45% 55% 58% 42%;
 }
 
-.mini-orbit i {
+.orbit-cat {
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2;
+  width: 86px;
+  height: 86px;
   color: var(--blue);
-  font-size: 3.5rem;
-  font-style: normal;
   transform: translate(-50%, -50%);
 }
 
@@ -695,7 +720,13 @@ h2 {
 .contact-inner { position: relative; z-index: 2; text-align: center; }
 .contact-inner > p { margin: 0 0 .8rem; color: #cce7ff; font-size: .8rem; font-weight: 800; text-transform: uppercase; }
 .contact h2 { max-width: 840px; margin-inline: auto; color: var(--white); }
-.contact-star { display: block; margin-bottom: 1rem; color: var(--yellow); font-size: 2.2rem; }
+.contact-doodle {
+  width: 62px;
+  height: 48px;
+  margin: 0 auto 1rem;
+  color: var(--yellow);
+  animation: bob 4s ease-in-out infinite;
+}
 
 .email {
   display: inline-flex;
