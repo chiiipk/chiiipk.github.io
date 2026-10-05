@@ -1,16 +1,33 @@
-# Pham Khanh Chi — Academic Website
+# chiiipk.github.io
 
-Personal academic website for [Pham Khanh Chi](https://chiiipk.github.io/), hosted with GitHub Pages.
+Personal academic website of **Pham Khanh Chi**, a Data Science and Artificial Intelligence student at Hanoi University of Science and Technology and a research member of the Foundation Model Lab.
 
-## Local preview
+Research interests include efficient language models, knowledge distillation, representation alignment, cross-tokenizer transfer, and natural language processing.
+
+## Local development
+
+This website uses the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
+Its structure is adapted from [tmp0810.github.io](https://github.com/tmp0810/tmp0810.github.io).
 
 ```bash
-python3 -m http.server 8000
+bundle install
+bundle exec jekyll serve
 ```
 
-Then open `http://localhost:8000`.
+Open <http://localhost:4000> to preview the site.
 
-## Profiles
+## Deployment
 
-- [Google Scholar](https://scholar.google.com/citations?user=RriETykAAAAJ)
-- [GitHub](https://github.com/chiiipk)
+Push changes to the `main` branch. The `Deploy site` GitHub Actions workflow builds the site and publishes the generated files to `gh-pages`.
+
+In the repository settings, configure GitHub Pages to deploy from the `gh-pages` branch.
+
+## Content
+
+- `_pages/`: About, Publications, Projects, Repositories, and CV pages
+- `_projects/`: research project pages
+- `_news/`: homepage news items
+- `_bibliography/papers.bib`: publications and preprints
+- `_data/cv.yml`: web CV
+- `_data/socials.yml`: public contact and profile links
+- `assets/pdf/Pham-Khanh-Chi-CV.pdf`: downloadable CV

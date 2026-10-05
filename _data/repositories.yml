@@ -1,0 +1,9 @@
+github_users:
+  - chiiipk
+
+repo_description_lines_max: 2
+
+github_repos:
+  - chiiipk/MTA-Multi-Granular-Trajectory-Alignment
+  - chiiipk/SRAv2
+  - chiiipk/dwa-kd

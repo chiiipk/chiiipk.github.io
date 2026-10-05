@@ -1,0 +1,18 @@
+EMNLP:
+  url: https://2026.emnlp.org/
+  color: "#5B4B8A"
+
+ACL:
+  url: https://www.aclweb.org/
+  color: "#2F6B8A"
+
+EACL:
+  url: https://2026.eacl.org/
+  color: "#0D7377"
+
+Neurocomputing:
+  url: https://www.sciencedirect.com/journal/neurocomputing
+  color: "#A61B29"
+
+Preprint:
+  color: "#6C757D"

@@ -1,0 +1,64 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Pham Khanh Chi
+    - name: Location
+      value: Hanoi, Vietnam
+    - name: Email
+      value: <a href="mailto:phamkhanhchi0406@gmail.com">phamkhanhchi0406@gmail.com</a>
+    - name: Profiles
+      value: <a href="https://scholar.google.com/citations?user=RriETykAAAAJ">Google Scholar</a> · <a href="https://github.com/chiiipk">GitHub</a>
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.Sc. in Data Science and Artificial Intelligence
+      institution: School of Information and Communication Technology, Hanoi University of Science and Technology
+      location: Hanoi, Vietnam
+      year: 2023 - Present
+      description:
+        - "CPA: 3.80/4.00"
+        - Academic Excellence Scholarship, Fall 2024-2025, Fall 2025-2026, and Spring 2025-2026 (Top 5)
+        - Outstanding Student Award, Academic Year 2024-2025
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Member
+      institution: Foundation Model Lab
+      location: Hanoi, Vietnam
+      year: 2024 - Present
+      description:
+        - "Supervisor: Dr. Ngo Van Linh"
+        - Develops knowledge distillation methods for compact and deployment-aware language models
+        - Designs objectives for trajectory, span representation, teacher-anchored layer, and cross-tokenizer alignment
+        - Builds PyTorch pipelines for training, evaluation, ablation studies, and error analysis
+        - Conducts end-to-end research from problem formulation and method design through implementation and publication
+
+- title: Research Interests
+  type: list
+  contents:
+    - Efficient large language models and model compression
+    - Knowledge distillation and representation alignment
+    - Cross-tokenizer and embedding model distillation
+    - Reinforcement learning and optimal transport
+    - Efficient vision-language models
+
+- title: Technical Skills
+  type: list
+  contents:
+    - "Programming and tools: Python, SQL, Git, Linux, Bash, LaTeX"
+    - "Deep learning: PyTorch, Transformers, Hugging Face, Accelerate, distributed training"
+    - "English: IELTS 7.5"
+
+- title: Publications
+  type: list
+  contents:
+    - First author, MTA, ACL 2026 Main Conference
+    - Co-first author, SRA, ACL 2026 Main Conference
+    - Co-first author, TALAS, ACL 2026 Main Conference
+    - Co-first author, DWA-KD, Findings of EACL 2026
+    - Co-first author, A Survey on Knowledge Distillation of Vision-Language Models, Findings of EMNLP 2026
+    - Co-first author, A multi-objective surrogate framework for training neural topic models, Neurocomputing 2026
+    - Co-first author, A framework for neural topic modeling using hierarchical clustering and contrastive learning with optimal transport, Neurocomputing 2025

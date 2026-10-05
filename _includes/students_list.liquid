@@ -1,0 +1,60 @@
+{% assign s = site.data.students %}
+{% if s %}
+  {% assign has_ugrad = s.undergraduate | size %}
+  {% assign has_phd = s.phd | size %}
+  {% if has_ugrad > 0 or has_phd > 0 %}
+    <div class="students">
+      {% if has_phd > 0 %}
+        <h3 class="student-section-heading">PhD students</h3>
+        <ol class="student-list">
+          {% for student in s.phd %}
+            <li>
+              <div class="student-item">
+                <div class="name">
+                  {% if student.url %}
+                    <a href="{{ student.url }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+                  {% else %}
+                    {{ student.name }}
+                  {% endif %}
+                </div>
+                <div class="role">
+                  {{ student.role -}}
+                  {%- if student.period %} &mdash; {{ student.period }}{% endif %}
+                  {% if student.status %}
+                    <span class="student-status">{{ student.status }}</span>
+                  {% endif %}
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+
+      {% if has_ugrad > 0 %}
+        <h3 class="student-section-heading">Undergraduate students</h3>
+        <ol class="student-list">
+          {% for student in s.undergraduate %}
+            <li>
+              <div class="student-item">
+                <div class="name">
+                  {% if student.url %}
+                    <a href="{{ student.url }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+                  {% else %}
+                    {{ student.name }}
+                  {% endif %}
+                </div>
+                <div class="role">
+                  {{ student.role -}}
+                  {%- if student.period %} &mdash; {{ student.period }}{% endif %}
+                  {% if student.status %}
+                    <span class="student-status">{{ student.status }}</span>
+                  {% endif %}
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endif %}

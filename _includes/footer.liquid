@@ -1,0 +1,44 @@
+{% if site.footer_fixed %}
+  <div style="display: flex; justify-content: center; align-items: center; min-height: 400px; padding: 2rem 0;">
+    <div style="width: min(350px, 90vw); min-height: 350px;">
+      <script
+        type="text/javascript"
+        id="mmvst_globe"
+        src="//mapmyvisitors.com/globe.js?d=EUtMPjX2lfokvu0HQndJTE5r214135yWJ6d9DCa2VAY"
+      ></script>
+    </div>
+  </div>
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      &copy; Copyright {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}. {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    {% if site.newsletter.enabled %}
+      {% include newsletter.liquid %}
+    {% endif %}
+
+    <div class="container">
+      &copy; Copyright {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}. {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
+  </footer>
+{% endif %}
