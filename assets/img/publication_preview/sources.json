@@ -1,0 +1,44 @@
+{
+  "chi2026mta": {
+    "file": "mta.webp",
+    "alt": "Dynamic structural alignment between teacher and student in MTA",
+    "source": "https://aclanthology.org/2026.acl-long.1507.pdf",
+    "figure": 2
+  },
+  "dao2026sra": {
+    "file": "sra.webp",
+    "alt": "Teacher and student span-alignment framework in SRA",
+    "source": "https://aclanthology.org/2026.acl-long.1522.pdf",
+    "figure": 2
+  },
+  "dao2026talas": {
+    "file": "talas.webp",
+    "alt": "Teacher-anchored layer alignment and adaptive sharpness-aware minimization in TALAS",
+    "source": "https://aclanthology.org/2026.acl-long.1509.pdf",
+    "figure": 1
+  },
+  "vu2026dwakd": {
+    "file": "dwa-kd.webp",
+    "alt": "DWA-KD win rates against cross-tokenizer distillation baselines",
+    "source": "https://aclanthology.org/2026.findings-eacl.181.pdf",
+    "figure": 1
+  },
+  "vuong2026vlmsurvey": {
+    "file": "vlm-survey.webp",
+    "alt": "Knowledge types transferred between teacher and student vision-language models",
+    "source": "https://cdn.jsdelivr.net/gh/HoangTran223/Awesome-Knowledge-Distillation-of-VLMs@main/paper/EMNLP2026_A_Survey_on_Knowledge_Distillation_of_VLMs.pdf",
+    "figure": 2
+  },
+  "chi2025framework": {
+    "file": "hicolt.webp",
+    "alt": "HiCOLT framework combining hierarchical clustering and contrastive learning for neural topic models",
+    "source": "https://doi.org/10.1016/j.neucom.2025.132530",
+    "figure": 3
+  },
+  "chi2026multiobjective": {
+    "file": "msoo.webp",
+    "alt": "Multi-surrogate-objective optimization pipeline for neural topic models",
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S0925231226008295-gr2.jpg",
+    "figure": 2
+  }
+}

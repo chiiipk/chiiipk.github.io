@@ -9,11 +9,9 @@ last_name: Chi
 contact_note: >
   Feel free to reach out for research discussions and collaboration opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Pham Khanh Chi, researching efficient language models, knowledge distillation, and representation alignment.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: efficient language models, knowledge distillation, representation alignment, cross-tokenizer distillation, natural language processing
+  Personal academic website of Pham Khanh Chi, AI Resident at Qualcomm researching efficient AI, multimodal models, GUI agents, and knowledge distillation.
+footer_text:
+keywords: efficient AI, large language models, vision-language models, GUI agents, multimodal AI, knowledge distillation, representation alignment, reinforcement learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -334,6 +332,7 @@ filtered_bibtex_keywords:
     paper,
     preprint,
     preview,
+    preview_alt,
     selected,
     slides,
     supp,
@@ -346,7 +345,7 @@ max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: false
+enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
