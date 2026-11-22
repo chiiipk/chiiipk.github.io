@@ -21,8 +21,8 @@
 - title: Research Interests
   type: list
   contents:
-  - Large Language Models · Vision-Language Models · GUI Agents · Knowledge Distillation
-  - Efficient NLP · Representation Alignment · Cross-Tokenizer Alignment · Reinforcement Learning
+  - Efficient AI · Knowledge Distillation · Large Language Models · Vision-Language Models
+  - Efficient NLP · Representation Alignment · Cross-Tokenizer Alignment · Reinforcement Learning · GUI Agents
 - title: Experience
   type: time_table
   contents:
@@ -35,19 +35,20 @@
     year: 2024 – Present
     maindescription: Research on efficient AI, foundation models, and knowledge distillation.
     description:
-    - 'Advisors: Dr. Ngo Van Linh and Dr. Trung Le'
+    - 'Advisors: <a href="https://scholar.google.com/citations?user=tZ78MoQAAAAJ">Dr. Ngo Van Linh</a> and <a href="https://scholar.google.com/citations?user=gysdMxwAAAAJ">Prof.
+      Trung Le</a>'
   - title: Research Member
     institution: Foundation Model Lab
     year: 2024 – Present
     maindescription: Efficient AI, including knowledge distillation for vision-language models and large language
       models.
     description:
-    - 'Advisor: Dr. Ngo Van Linh'
+    - 'Advisor: <a href="https://scholar.google.com/citations?user=tZ78MoQAAAAJ">Dr. Ngo Van Linh</a>'
 - title: Publications
   type: list
   contents:
-  - '<strong>Pham Khanh Chi</strong> et al. <a href="https://aclanthology.org/2026.acl-long.1507/">MTA: Multi-Granular
-    Trajectory Alignment for Large Language Model Distillation</a>. <em>ACL 2026, Main Conference</em>.'
+  - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.acl-long.1507/">MTA:
+    Multi-Granular Trajectory Alignment for Large Language Model Distillation</a>. <em>ACL 2026, Main Conference</em>.'
   - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.acl-long.1522/">SRA:
     Span Representation Alignment for Large Language Model Distillation</a>. <em>ACL 2026, Main Conference</em>.'
   - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.acl-long.1509/">TALAS:

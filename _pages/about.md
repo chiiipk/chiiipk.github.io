@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: AI Resident at Qualcomm · Efficient AI · Multimodal AI & GUI Agents
+subtitle: Efficient AI · Knowledge Distillation · AI Resident at Qualcomm
 
 profile:
   align: right
@@ -14,10 +14,10 @@ selected_papers: true
 social: true
 ---
 
-I am an **AI Resident at Qualcomm Inc.**, researching **agentic AI for mobile devices and multimodal AI**. I am also a Data Science and Artificial Intelligence student at [Hanoi University of Science and Technology](https://www.hust.edu.vn/), with a **CPA of 3.80/4.00** and a **major GPA of 3.87/4.00**.
+Hi, my name is **Chi**. I'm currently an **AI Resident at Qualcomm Inc.**, where I research multimodal AI and agentic AI for mobile devices. I am also a Data Science and Artificial Intelligence student at [Hanoi University of Science and Technology (HUST)](https://www.hust.edu.vn/), where I am advised by [**Dr. Ngo Van Linh**](https://scholar.google.com/citations?user=tZ78MoQAAAAJ) and [**Prof. Trung Le**](https://scholar.google.com/citations?user=gysdMxwAAAAJ).
 
-Since 2024, I have been a research member of **DreamAI Lab**, working with **Dr. Ngo Van Linh and Dr. Trung Le**, and the **Foundation Model Lab**, supervised by **Dr. Ngo Van Linh**. My work focuses on **efficient AI**, **foundation models**, and **knowledge distillation for vision-language and large language models**.
+My research focuses on **efficient AI** and **knowledge distillation**, particularly for **large language models and vision-language models**. I work on making foundation models more efficient through representation alignment and cross-tokenizer transfer.
 
-**Research interests.** Large language models, vision-language models, GUI agents, knowledge distillation, efficient NLP, representation alignment, cross-tokenizer alignment, and reinforcement learning.
+**Research interests.** **Efficient AI · Knowledge Distillation** · Large Language Models · Vision-Language Models · Efficient NLP · Representation Alignment · Cross-Tokenizer Alignment · Reinforcement Learning · GUI Agents.
 
 For more details, see my [publications](/publications/) or [CV](/cv/).

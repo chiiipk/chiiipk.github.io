@@ -26,14 +26,20 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
-      {% assign author_array_size = entry.author_array | size %}
+      {% assign display_authors = entry.author_array %}
+      {% assign self_equal_authors = entry.author_array | where_exp: 'author', "author.first == 'Pham Khanh' and author.last == 'Chi*'" %}
+      {% if self_equal_authors.size > 0 %}
+        {% assign other_authors = entry.author_array | where_exp: 'author', "author.first != 'Pham Khanh' or author.last != 'Chi*'" %}
+        {% assign display_authors = self_equal_authors | concat: other_authors %}
+      {% endif %}
+      {% assign author_array_size = display_authors | size %}
 
       {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-      {%- for author in entry.author_array limit: author_array_limit -%}
+      {%- for author in display_authors limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
@@ -82,7 +88,7 @@
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
         {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
+        {%- for author in display_authors offset: author_array_limit -%}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
