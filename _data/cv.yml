@@ -50,23 +50,27 @@
 - title: Publications
   type: list
   contents:
-  - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.acl-long.1507/">MTA:
-    Multi-Granular Trajectory Alignment for Large Language Model Distillation</a>. <em>ACL 2026, Main Conference</em>.'
-  - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.acl-long.1522/">SRA:
+  - '<strong>Pham Khanh Chi</strong><sup>*</sup>, Quoc Phong Dao<sup>*</sup>, Thuat Nguyen, Linh Ngo Van, Trung
+    Le, and Thanh Hong Nguyen. <a href="https://aclanthology.org/2026.acl-long.1507/">MTA: Multi-Granular Trajectory
+    Alignment for Large Language Model Distillation</a>. <em>ACL 2026, Main Conference</em>.'
+  - 'Quoc Phong Dao<sup>*</sup>, Hoang Son Nguyen<sup>*</sup>, <strong>Pham Khanh Chi</strong><sup>*</sup>, Tung
+    Nguyen, Linh Ngo Van, Nguyen Thi Ngoc Diep, and Trung Le. <a href="https://aclanthology.org/2026.acl-long.1522/">SRA:
     Span Representation Alignment for Large Language Model Distillation</a>. <em>ACL 2026, Main Conference</em>.'
-  - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.acl-long.1509/">TALAS:
+  - 'Quoc Phong Dao<sup>*</sup>, Hoang Son Nguyen<sup>*</sup>, <strong>Pham Khanh Chi</strong><sup>*</sup>, Linh
+    Ngo Van, Nguyen Thi Ngoc Diep, Thien Huu Nguyen, and Trung Le. <a href="https://aclanthology.org/2026.acl-long.1509/">TALAS:
     Teacher-Anchored Layer Alignment with Adaptive Sharpness-Aware Minimization for Embedding Distillation</a>.
     <em>ACL 2026, Main Conference</em>.'
-  - <strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://cdn.jsdelivr.net/gh/HoangTran223/Awesome-Knowledge-Distillation-of-VLMs@main/paper/EMNLP2026_A_Survey_on_Knowledge_Distillation_of_VLMs.pdf">A
+  - 'Duc Trung Vu<sup>*</sup>, <strong>Pham Khanh Chi</strong><sup>*</sup>, Dat Phi Van, Linh Ngo Van, Dinh Viet
+    Sang, and Trung Le. <a href="https://aclanthology.org/2026.findings-eacl.181/">DWA-KD: Dual-Space Weighting
+    and Time-Warped Alignment for Cross-Tokenizer Knowledge Distillation</a>. <em>Findings of EACL 2026</em>.'
+  - Hoang Tran Vuong<sup>*</sup>, Dat Dao<sup>*</sup>, <strong>Pham Khanh Chi</strong><sup>*</sup>, Minh-Phuc Truong<sup>*</sup>,
+    Quyen Tran, Linh Ngo Van, Thien Huu Nguyen, Thanh-Toan Do, and Trung Le. <a href="https://cdn.jsdelivr.net/gh/HoangTran223/Awesome-Knowledge-Distillation-of-VLMs@main/paper/EMNLP2026_A_Survey_on_Knowledge_Distillation_of_VLMs.pdf">A
     Survey on Knowledge Distillation of Vision-Language Models</a>. <em>Findings of EMNLP 2026</em>.
-  - '<strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://aclanthology.org/2026.findings-eacl.181/">DWA-KD:
-    Dual-Space Weighting and Time-Warped Alignment for Cross-Tokenizer Knowledge Distillation</a>. <em>Findings
-    of EACL 2026</em>.'
-  - <strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://doi.org/10.1016/j.neucom.2026.133432">A
+  - <strong>Pham Khanh Chi</strong><sup>*</sup>, Tue Le<sup>*</sup>, Anh-Cuong Le, and Linh Ngo Van. <a href="https://doi.org/10.1016/j.neucom.2026.133432">A
     Multi-Objective Surrogate Framework for Training Neural Topic Models</a>. <em>Neurocomputing, 2026</em>.
-  - <strong>Pham Khanh Chi</strong><sup>*</sup> et al. <a href="https://doi.org/10.1016/j.neucom.2025.132530">A
-    Framework for Neural Topic Modeling Using Hierarchical Clustering and Contrastive Learning with Optimal Transport</a>.
-    <em>Neurocomputing, 2025</em>.
+  - <strong>Pham Khanh Chi</strong><sup>*</sup>, Hoang Tran Vuong<sup>*</sup>, Dinh Viet Sang, and Linh Ngo Van.
+    <a href="https://doi.org/10.1016/j.neucom.2025.132530">A Framework for Neural Topic Modeling Using Hierarchical
+    Clustering and Contrastive Learning with Optimal Transport</a>. <em>Neurocomputing, 2025</em>.
   - <sup>*</sup> Equal contribution.
 - title: Honors & Awards
   type: time_table
