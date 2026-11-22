@@ -14,10 +14,10 @@ selected_papers: true
 social: true
 ---
 
-Hi, my name is **Chi**. I'm currently an **AI Resident at Qualcomm Inc.**, where I research multimodal AI and agentic AI for mobile devices. I am also a Data Science and Artificial Intelligence student at [Hanoi University of Science and Technology (HUST)](https://www.hust.edu.vn/), where I am advised by [**Dr. Ngo Van Linh**](https://scholar.google.com/citations?user=tZ78MoQAAAAJ) and [**Prof. Trung Le**](https://scholar.google.com/citations?user=gysdMxwAAAAJ).
+Hi, my name is **Chi**. I'm currently an **AI Resident at Qualcomm Inc.**, advised by [**Dr. Dat Quoc Nguyen**](https://scholar.google.com/citations?user=HVl7vyEAAAAJ) (principal advisor) and [**Dr. Quan Pham**](https://scholar.google.com.vn/citations?user=AzzJssIAAAAJ) (co-advisor).
 
-My research focuses on **efficient AI** and **knowledge distillation**, particularly for **large language models and vision-language models**. I work on making foundation models more efficient through representation alignment and cross-tokenizer transfer.
+I am also a Data Science and Artificial Intelligence student at [Hanoi University of Science and Technology (HUST)](https://www.hust.edu.vn/), where I am advised by [**Dr. Ngo Van Linh**](https://scholar.google.com/citations?user=tZ78MoQAAAAJ) and [**Prof. Trung Le**](https://scholar.google.com/citations?user=gysdMxwAAAAJ).
 
-**Research interests.** **Efficient AI · Knowledge Distillation** · Large Language Models · Vision-Language Models · Efficient NLP · Representation Alignment · Cross-Tokenizer Alignment · Reinforcement Learning · GUI Agents.
+I focus on **efficient AI**, with current work on **knowledge distillation for LLMs and VLMs** and **GUI agents**.
 
 For more details, see my [publications](/publications/) or [CV](/cv/).

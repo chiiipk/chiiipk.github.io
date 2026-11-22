@@ -9,9 +9,9 @@ last_name: Chi
 contact_note: >
   Feel free to reach out for research discussions and collaboration opportunities.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Pham Khanh Chi, AI Resident at Qualcomm researching efficient AI, knowledge distillation, multimodal models, and GUI agents.
+  Personal academic website of Pham Khanh Chi, AI Resident at Qualcomm researching efficient AI, knowledge distillation for LLMs and VLMs, and GUI agents.
 footer_text:
-keywords: efficient AI, knowledge distillation, large language models, vision-language models, representation alignment, reinforcement learning, multimodal AI, GUI agents
+keywords: efficient AI, knowledge distillation, large language models, vision-language models, GUI agents
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

@@ -2,7 +2,7 @@
 
 Personal academic website of **Pham Khanh Chi**, AI Resident at Qualcomm Inc. and a Data Science and Artificial Intelligence student at Hanoi University of Science and Technology.
 
-Research interests include efficient AI, knowledge distillation, large language models, vision-language models, representation alignment, reinforcement learning, and GUI agents.
+Research focuses on efficient AI, knowledge distillation for large language models and vision-language models, and GUI agents.
 
 ## Deployment
 

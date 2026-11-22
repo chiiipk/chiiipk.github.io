@@ -21,8 +21,7 @@
 - title: Research Interests
   type: list
   contents:
-  - Efficient AI · Knowledge Distillation · Large Language Models · Vision-Language Models
-  - Efficient NLP · Representation Alignment · Cross-Tokenizer Alignment · Reinforcement Learning · GUI Agents
+  - Efficient AI · Knowledge Distillation for Large Language Models and Vision-Language Models · GUI Agents
 - title: Experience
   type: time_table
   contents:
