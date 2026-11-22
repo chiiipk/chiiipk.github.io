@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Cross-Tokenizer Distillation
-description: Robust transfer between teacher and student models with different tokenizers.
-importance: 2
+title: 'DWA-KD: Dual-Space Weighting and Time-Warped Alignment for Cross-Tokenizer Knowledge Distillation'
+description: Findings of EACL 2026 · Dual-space weighting and time-warped alignment across tokenizers.
+importance: 5
 category: language-model-distillation
 github: https://github.com/chiiipk/dwa-kd
 ---
 
-This line of work builds tokenizer-agnostic units and alignment objectives for transferring knowledge across model families. **SRA** uses span representations and geometric regularization, while **DWA-KD** combines dual-space token weighting with Soft-DTW alignment of embedding and hidden-state sequences.
+DWA-KD transfers knowledge between language models with different tokenizers through dual-space token weighting and Soft-DTW alignment of embedding and hidden-state sequences.
 
-[SRA](https://aclanthology.org/2026.acl-long.1522/) · [DWA-KD](https://aclanthology.org/2026.findings-eacl.181/)
+[Paper](https://aclanthology.org/2026.findings-eacl.181/) · [Code](https://github.com/chiiipk/dwa-kd)

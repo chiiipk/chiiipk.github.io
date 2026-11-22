@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research themes and open-source implementations.
+description: Research papers and their implementations.
 nav: true
 nav_order: 3
 ---
