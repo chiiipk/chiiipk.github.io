@@ -47,6 +47,7 @@
       models.
     description:
     - 'Advisor: <a href="https://scholar.google.com/citations?user=tZ78MoQAAAAJ">Dr. Ngo Van Linh</a>'
+    - 'Co-advisor: <a href="https://thienhuunguyen.github.io/">Assoc. Prof. Thien Huu Nguyen</a>'
 - title: Publications
   type: list
   contents:
